@@ -21,15 +21,15 @@ from pyrogram import filters
 load_dotenv()
 
 # Required credentials
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
-BOT_TOKEN = getenv("BOT_TOKEN")
+API_ID = int(getenv("API_ID",'29198115'))
+API_HASH = getenv("API_HASH",'c95739ca773e2e35efe11b406b59af3b')
+BOT_TOKEN = getenv("BOT_TOKEN","8292210027:AAEPOUuE2gLMhl8jCO1aXcrnWRsZBpKw_b8")
 
 # Bot and owner info
-OWNER_USERNAME = getenv("OWNER_USERNAME", "SHIVANSHDEVS")
-BOT_USERNAME = getenv("BOT_USERNAME", "SapnaMusicRobot")
-BOT_NAME = getenv("BOT_NAME", "SAPNA")
-ASSUSERNAME = getenv("ASSUSERNAME", "KHWAAISH_HOON")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "funnytamilan")
+BOT_USERNAME = getenv("BOT_USERNAME", "tfcxmusicbot")
+BOT_NAME = getenv("BOT_NAME", "musicbot")
+ASSUSERNAME = getenv("ASSUSERNAME", "funnytamilan_2")
 
 # MongoDB
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -77,7 +77,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "5242880000"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 
 # Session strings
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQGoS6QATOI70MmmW6J-Qeo8w4_Signqemo6WmvAw6fSLJm5VgXjkT8yXhxTzDh6kLVBl7PSOtw7reYFu7kfRSXQomWYxLI-kPZjkJpCw9Zhje2R35yQdAPSMneg0teI4R5kDMXiJe20pEDqbBZdw2IK0Z6-Z3sfN5ZF-PG0rK5U-eYPHU6xMNhNjDoDpICajEYkLqha91MHn4JnHHDyuMiNDeaxtelVKFEd3_KbmM-05Kvxd2rTCN_JmKanO7cR7SIIaRJXNh0Xm0UWGLClrOx6Tz2WgHp63SXiyuH_jrLsm2m0SfgRZzZ7VPkoPigim5IgX-b2my1aIt9Tm3AcdrjPBPDzrQAAAAGx9uaUAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
