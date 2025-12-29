@@ -21,9 +21,9 @@ from pyrogram import filters
 load_dotenv()
 
 # Required credentials
-API_ID = int(getenv("API_ID",'29198115'))
-API_HASH = getenv("API_HASH",'c95739ca773e2e35efe11b406b59af3b')
-BOT_TOKEN = getenv("BOT_TOKEN","")
+API_ID = int(getenv("API_ID", 29198115))
+API_HASH = getenv("API_HASH", "c95739ca773e2e35efe11b406b59af3b")
+BOT_TOKEN = getenv("BOT_TOKEN","8577192556:AAH_VGCGYNA_s-_NFXeyXMb12_J7UIGK4Og")
 
 # Bot and owner info
 OWNER_USERNAME = getenv("OWNER_USERNAME", "funnytamilan")
